@@ -73,7 +73,7 @@ const cars = [
     }
 ]
 
-cars.forEach((cars) => console.log(cars.make + " " + cars.model));
+cars.forEach((cars) => console.log(cars.make + " " + cars.model)); 
 
 cars.forEach((car) => {
     console.log(car.make + " " + car.model + ' transmissions:');
